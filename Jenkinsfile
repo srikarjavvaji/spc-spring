@@ -1,4 +1,4 @@
-node {
+node('LABEL-1') {
     try {
         stage('Checkout') {
             echo 'Checking out the repository...'
